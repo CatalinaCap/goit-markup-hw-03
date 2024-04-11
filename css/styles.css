@@ -1,0 +1,224 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --gray: #757575;
+  --light-black: #212121;
+  --black: #000000;
+  --special-gray: #f5f4fa;
+  --footer-color: #2f303a;
+  --primary-font: 'Roboto', Sans-serif;
+  --secondary-font: 'raleway', Sans-serif;
+  --background-index: #2f303a;
+}
+/*Header section*/
+body {
+  font-family: var(--primary-font);
+  color: var(--white);
+}
+.header__section {
+  background-color: var(--white);
+}
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+.header_logo {
+  text-decoration-line: none;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--black);
+}
+/*Nav-choose_section*/
+.link {
+  text-decoration: none;
+  color: var(--light-black);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--primary-font);
+}
+
+.send-email {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 14px;
+  font-family: var(--primary-font);
+}
+.phonecall {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 14px;
+  font-family: var(--primary-font);
+}
+.choose_section .link:hover,
+.link:focus {
+  color: var(--blue);
+}
+.send-email:hover,
+.send-email:focus {
+  color: var(--blue);
+}
+.phonecall:hover,
+.phonecall:focus {
+  color: var(--blue);
+}
+/*Div-buttons*/
+.buttons {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--light-black);
+  background-color: var(--special-gray);
+  border: none;
+  cursor: pointer;
+}
+.buttons:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+/*List-categories*/
+.subtitle {
+  font-size: 18px;
+  font-family: var(--primary-font);
+  color: var(--light-black);
+  font-weight: 700;
+  line-height: 2;
+}
+.area {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--gray);
+}
+/*Footer section*/
+footer {
+  background-color: var(--footer-color);
+}
+.footer_logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+}
+.logo_footer {
+  color: var(--blue);
+}
+.address_portfolio {
+  font-size: 14px;
+  color: var(--white);
+}
+a {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+}
+.address_portfolio:hover,
+.address_portfolio:focus {
+  color: var(--blue);
+}
+/*Index html style*/
+/*Header logo*/
+
+.index_logo {
+  color: var(--black);
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+}
+.first_logo {
+  color: var(--blue);
+}
+.link_index {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light-black);
+}
+ul {
+  list-style: none;
+}
+.link_contact {
+  font-size: 14px;
+  color: var(--gray);
+  font-family: var(--primary-font);
+}
+.link_contact_phone {
+  font-size: 14px;
+  color: var(--gray);
+  font-family: var(--primary-font);
+}
+.link_index:hover,
+.link_index:focus {
+  color: var(--blue);
+}
+.link_contact:hover,
+.link_contact:focus {
+  color: var(--blue);
+}
+.link_contact_phone:hover,
+.link_contact_phone:focus {
+  color: var(--blue);
+}
+.main_title {
+  background-color: var(--background-index);
+  text-align: center;
+}
+.button_index:hover,
+.button_index:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.section_div {
+  color: var(--light-black);
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+.paragraph {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+}
+.information {
+  color: var(--light-black);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+/*Last Part-Team*/
+.team_member {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--light-black);
+}
+.member_profession {
+  font-size: 16px;
+  color: var(--gray);
+}
+h2 {
+  color: var(--light-black);
+  font-size: 36px;
+  font-family: var(--primary-font);
+  text-align: center;
+}
+/*Footer */
+.first_part_logo {
+  color: var(--blue);
+}
+
+.l_footer {
+  color: var(--white);
+  font-family: var(--secondary-font);
+}
+.address_index {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: var(--white);
+}
+.address_index:hover,
+.address_index:focus {
+  color: var(--blue);
+}
