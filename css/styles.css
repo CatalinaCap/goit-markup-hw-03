@@ -17,6 +17,15 @@ body {
 }
 .header__section {
   background-color: var(--white);
+  margin-bottom: 94px;
+}
+.header_logo {
+  margin-top: 15px;
+}
+.header__section .container__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 .logo {
   color: #2196f3;
@@ -30,7 +39,13 @@ body {
   font-weight: 700;
   color: var(--black);
 }
+
 /*Nav-choose_section*/
+.choose_section ul {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
 .link {
   text-decoration: none;
   color: var(--light-black);
@@ -50,6 +65,12 @@ body {
   color: var(--gray);
   font-size: 14px;
   font-family: var(--primary-font);
+}
+.contact_header {
+  display: flex;
+  gap: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 .choose_section .link:hover,
 .link:focus {
@@ -74,6 +95,10 @@ body {
   border: none;
   cursor: pointer;
 }
+.section {
+  display: flex;
+  justify-content: center;
+}
 .buttons:hover {
   color: var(--white);
   background-color: var(--blue);
@@ -86,12 +111,33 @@ body {
   font-weight: 700;
   line-height: 2;
 }
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
 .area {
   font-family: var(--primary-font);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
   color: var(--gray);
+}
+.categories {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.cards_flex ul {
+  display: flex;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+  padding-left: 0px;
+}
+.cards {
+  border-bottom-width: solid;
 }
 /*Footer section*/
 footer {
@@ -163,6 +209,9 @@ ul {
 .link_contact_phone:focus {
   color: var(--blue);
 }
+.email_header {
+  color: var(--blue);
+}
 .main_title {
   background-color: var(--background-index);
   text-align: center;
@@ -221,4 +270,59 @@ h2 {
 .address_index:hover,
 .address_index:focus {
   color: var(--blue);
+}
+/* Tema 3/ Flexbox, margins, padding */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Index html tema 3*/
+.header_navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.contact_header {
+  display: flex;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.link_index {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.main_title {
+  margin: 0%;
+}
+h1 {
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  line-height: 60px;
+}
+.button_index {
+  font-size: 16px;
+  line-height: 30px;
+}
+.details_paragraph {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+h2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.pictures_second_part {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.team_last {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 94px;
 }

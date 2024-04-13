@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,22 +14,28 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--Prima parte/antet-->
-  <body>
-    <header>
-      <a href="#"
-        ><p class="index_logo"><span class="first_logo">Web</span>Studio</p>
-      </a>
-      <nav>
-        <ul>
-          <li><a class="link_index" href="index.html">Studio</a></li>
-          <li><a class="link_index" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link_index" href="#">Contacts</a></li>
-        </ul>
-      </nav>
-      <a class="link_contact" href="mailto:info@devstudio.com"
-        ><p><span>info@devstudio.com</span></p></a
-      >
-      <a class="link_contact_phone" href="tel:+12127724150">+1 212-772-4150</a>
+  <body class="container">
+    <header class="header__section">
+      <div class="container__header">
+        <a href="#"
+          ><p class="index_logo"><span class="first_logo">Web</span>Studio</p>
+        </a>
+        <nav>
+          <ul class="header_navigation">
+            <li><a class="link_index" href="index.html">Studio</a></li>
+            <li><a class="link_index" href="portfolio.html">Portfolio</a></li>
+            <li><a class="link_index" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="contact_header">
+          <a class="link_contact" href="mailto:info@devstudio.com"
+            ><p><span class="email_header">info@devstudio.com</span></p></a
+          >
+          <a class="link_contact_phone" href="tel:+12127724150"
+            >+1 212-772-4150</a
+          >
+        </div>
+      </div>
     </header>
     <!--Titlul principal-->
     <main>
@@ -37,7 +44,7 @@
         <button class="button_index" type="button">Request our service</button>
       </section>
       <div class="section_div">
-        <ul>
+        <ul class="details_paragraph">
           <li>
             <strong>ATTENTION TO DETAILS</strong>
             <p class="paragraph">
@@ -46,7 +53,7 @@
             </p>
           </li>
           <li>
-            <strong>PUNCTUALITY</strong>
+            <strong> PUNCTUALITY</strong>
             <p class="paragraph">
               With us, you can feel safe and secure.<br />An important principle
               of the company:<br />respect your time and deadlines.
@@ -72,36 +79,41 @@
       <!--What we do section with pictures-->
       <section class="information">
         <h2>What we do</h2>
-        <div>
-          <img src="./images/first-img.jpg" alt="computer" width="200" />
-          <img src="./images/second-img.jpg" alt="phone" width="200" />
-          <img src="./images/third-img.jpg" alt="design" width="200" />
+        <div class="pictures_second_part">
+          <img src="./images/first-img.jpg" alt="computer" width="370" />
+          <img src="./images/second-img.jpg" alt="phone" width="370" />
+          <img src="./images/third-img.jpg" alt="design" width="370" />
         </div>
       </section>
       <!--Team-->
       <section>
         <h2>Our Team</h2>
-        <div>
-          <img
-            src="./images/christopher-walker.jpg"
-            alt="Christopher Walker"
-            width="100"
-          />
-          <p class="team_member">Christopher Walker</p>
-          <p class="member_profession">Product Designer</p>
-
-          <img src="./images/kylie-evans.jpg" alt="Kylie Evans" width="100" />
-          <p class="team_member">Kylie Evans</p>
-          <p class="member_profession">Frontend Developer</p>
-
-          <img src="./images/ryan-harris.jpg" alt="Ryan Harris" width="100" />
-          <p class="team_member">Ryan Harris</p>
-          <p class="member_profession">Marketing</p>
-
-          <img src="./images/tyler-moore.jpg" alt="Tyler Moore" width="100" />
-          <p class="team_member">Tyler Moore</p>
-          <p class="member_profession">UI Designer</p>
-        </div>
+        <ul class="team_last">
+          <li>
+            <img
+              src="./images/christopher-walker.jpg"
+              alt="Christopher Walker"
+              width="270"
+            />
+            <p class="team_member">Christopher Walker</p>
+            <p class="member_profession">Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/kylie-evans.jpg" alt="Kylie Evans" width="270" />
+            <p class="team_member">Kylie Evans</p>
+            <p class="member_profession">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/ryan-harris.jpg" alt="Ryan Harris" width="270" />
+            <p class="team_member">Ryan Harris</p>
+            <p class="member_profession">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/tyler-moore.jpg" alt="Tyler Moore" width="270" />
+            <p class="team_member">Tyler Moore</p>
+            <p class="member_profession">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
